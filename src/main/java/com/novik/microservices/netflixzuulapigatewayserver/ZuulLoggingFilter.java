@@ -5,13 +5,13 @@ import org.springframework.stereotype.Component;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j2;
 
 /**
  * ZuulLoggingFilter.
  * @author Kate Novik
  */
-@Log4j
+@Log4j2
 @Component
 public class ZuulLoggingFilter extends ZuulFilter {
 
